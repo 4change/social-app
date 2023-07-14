@@ -4,5 +4,15 @@
 [src——social-app](https://github.com/safak/youtube2022/tree/social-app)
 ## api
 后端
+### 运行
+```shell
+cd api
+
+nvm use v18.16.0        # 修改 social-app 项目的 node 版本为 v18.16.0
+
+yarn                    # 安装依赖
+
+yarn start              # 启动项目
+```
 ## client
 前端
