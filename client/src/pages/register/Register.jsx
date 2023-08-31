@@ -1,7 +1,16 @@
 import { Link } from "react-router-dom";
 import "./register.scss";
+import { useState } from "react";
 
 const Register = () => {
+
+  const [inputs, setInputs] = useState({
+    username: "",
+    email: "",
+    password: "",
+    name: "",
+  })
+
   return (
     <div className="register">
       <div className="card">
